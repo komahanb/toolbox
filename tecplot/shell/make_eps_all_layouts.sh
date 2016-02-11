@@ -18,7 +18,8 @@
 # (2) PDF file in the name of the layout
 #######################################################################
 #USAGE: 
-
+# 1) Goto the directory where the layouts are present
+# 2) ${TOOLBOX_DIR}/tecplot/shell/make_eps_all_layouts.sh
 #######################################################################
 
 for i in $( ls *.lay ); do
