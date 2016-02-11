@@ -19,7 +19,7 @@ for i in $( ls *.lay ); do
     let counter=counter+1
     
     #opens a layout and then exports as eps
-    ${HOME}/install/tecplot360ex/bin/tec360 -mesa -b $i $1
+    tec360 -mesa -b $i $1
     
     #get a filename to the figure based on the layout file
     NAME=`echo "$i" | cut -d'.' -f1` 
