@@ -14,8 +14,7 @@
 # Optional command line argument: PDF/PNG. The default is EPS (fastest)
 #######################################################################
 #OUTPUT:
-# (1) EPS file in the name of the layout
-# (2) PDF file in the name of the layout
+# EPS/PDF/PNG file in the name of the layout
 #######################################################################
 #USAGE: 
 # 1) Goto the directory where the layouts are present
